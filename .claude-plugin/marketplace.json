@@ -3,12 +3,12 @@
   "owner": { "name": "Amar Gautam", "email": "hello@amargautam.com" },
   "metadata": {
     "description": "Pakka plugins for Claude Code",
-    "version": "0.2.5"
+    "version": "0.2.6"
   },
   "plugins": [
     {
       "name": "pakka",
-      "source": { "source": "github", "repo": "amargautam/pakka", "ref": "v0.2.5" },
+      "source": { "source": "github", "repo": "amargautam/pakka", "ref": "v0.2.6" },
       "description": "Claude Code harness — JS compression hooks, per-level output rules, adversarial review gate, 4-vector compression, deny-by-default policy. Apache-2.0.",
       "license": "Apache-2.0",
       "keywords": ["claude-code", "ai", "llm", "developer-tools", "code-quality", "skills"],
