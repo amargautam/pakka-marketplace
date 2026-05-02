@@ -1,6 +1,6 @@
 {
   "name": "pakka-marketplace",
-  "owner": { "name": "Amar Gautam", "email": "amar@gautamfamily.com" },
+  "owner": { "name": "Amar Gautam", "email": "hello@amargautam.com" },
   "metadata": {
     "description": "Pakka plugins for Claude Code",
     "version": "0.2.1"
