@@ -13,28 +13,24 @@ Plugin catalog for [pakka](https://pakka.dev) — Claude Code harness that compr
 
 ### pakka (stable)
 
-Claude Code harness. 14 engineering skills auto-invoked by trigger phrase. Adversarial review gate on every commit. 4-vector output compression. Deny-by-default policy.
+Claude Code harness. 8 commands consolidated as hubs that auto-invoke from trigger phrases. AST-based commit-gate (chained shapes, env prefix, subshells, redirects). 4-vector output compression. Deny-by-default policy. SQLite FTS5 audit recall.
 
 Source: [amargautam/pakka](https://github.com/amargautam/pakka) · Apache-2.0
 
-**Skills:**
+**Commands:**
 
 | Command | Auto-invokes when you say |
 |---|---|
-| `/pakka:spec` | "build X", "implement X", "add feature" |
-| `/pakka:debug` | "debug", "fix this bug", "broken", "failing" |
-| `/pakka:tdd` | "write tests", "TDD", "test first" |
-| `/pakka:review-architecture` | "architecture", "coupling", "hard to test" |
-| `/pakka:challenge` | "challenge this", "stress test my plan" |
-| `/pakka:probe` | "probe me", "question my design" |
-| `/pakka:map` | "how does X work", "explain this module" |
-| `/pakka:triage` | "triage", "look at issue" |
-| `/pakka:slice` | "break into tickets", "create issues" |
-| `/pakka:skill` | "write a skill", "add to library" |
-| `/pakka:guard` | "protect git", "block force push" |
-| `/pakka:compress` | compression level control |
-| `/pakka:eval` | run eval gate on skill files |
-| `/pakka:init` | one-time pakka setup |
+| `/pakka:plan` | "design", "spec", "approach", "challenge this", "probe me", "break into tickets" |
+| `/pakka:build` | "implement", "fix this bug", "add", "TDD", "test first", "debug", "how does X work", "coupling" |
+| `/pakka:review` | "verify", "review", "is this right", "done", "ship", "approve" |
+| `/pakka:triage` | "triage", "look at issue", "classify", "reproduce bug" |
+| `/pakka:recall` | "recall", "search audit", "what did we do" |
+| `/pakka:compress` | compression level control (lite/strict/ultra/super-ultra) |
+| `/pakka:setup` | one-time environment setup |
+| `/pakka:help` | show pakka status |
+
+**Agents:** 3 subagents (architect, reviewer, security) auto-dispatched during review.
 
 ## License
 
